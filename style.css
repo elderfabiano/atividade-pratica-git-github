@@ -61,3 +61,14 @@ button:hover {
 
 
 /* DESENVOLVEDOR B: ADICIONE A CLASSE DE ERRO DA SENHA ABAIXO */
+.erro {
+    border: 2px solid red !important; /* O !important garante que sobreponha a borda padrão do input */
+}
+
+/* Opcional: Estilo para o texto de erro logo abaixo do input ficar vermelho */
+.erro-texto {
+    color: red;
+    font-size: 12px;
+    display: block;
+    margin-top: 5px;
+}
